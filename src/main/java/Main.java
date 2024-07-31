@@ -6,16 +6,6 @@ import exercises.NegativeIntegerInputException;
 public class Main {
 
     public static void main(String[] args) {
-
-        try {
-            Exercise3.divide();
-        } catch (NegativeIntegerInputException niie) {
-            // -> `Exception in thread "main"` prefixed to our rest of the printStackTrace message
-            // we do this, and let JVM catches the Exception & logs same as in the above format:
-            throw niie;
-
-            // instead of:
-            // niie.printStackTrace();
-        }
+        Exercise3.divide();
     }
 }
