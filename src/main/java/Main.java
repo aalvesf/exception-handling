@@ -12,4 +12,4 @@ public class Main {
         System.out.println(Exercise1.divide(inputs[0], inputs[1]));
 
     }
-    }
+}
